@@ -1,4 +1,5 @@
 # todo-project
 task 3
-![about](https://user-images.githubusercontent.com/99143742/153122630-45fd2819-c15f-456d-8123-a4419da3ae5e.jpg)
-![INDEX](https://user-images.githubusercontent.com/99143742/153122636-2a1e4663-c39b-44ff-aebe-763400ffd700.jpg)
+
+![Mind Map (1)](https://user-images.githubusercontent.com/99143742/153447190-abc9e446-632b-4f9b-951e-609cf0e540b3.jpg)
+![Untitled](https://user-images.githubusercontent.com/99143742/153447198-9076d00d-c6a3-49da-960d-12434c9d8d71.jpg)
