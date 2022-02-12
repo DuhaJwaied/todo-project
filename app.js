@@ -3,9 +3,15 @@ var gender = prompt("What's your gender? male /female only");
 
 if(gender =="male")
 {confirmedGender = "Mr."}
+else 
+{ confirmedGender=" "}
+
 
 if(gender == "female")
 {confirmedGender = "Mrs."}
+else 
+{ confirmedGender=" "}
+
 
 var userAge = prompt("What's your age?")
 if(userAge <= 0)
@@ -14,8 +20,6 @@ if(userAge <= 0)
 }
 
 welcomeMessage = confirm("Skip message?");
-
-
 
 if(welcomeMessage == false)
 {
