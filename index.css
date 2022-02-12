@@ -1,0 +1,24 @@
+header img 
+{
+   margin-right: 20;
+    width: 100px;
+    height: 100px;
+}
+
+
+header nav
+{ 
+    float: right;
+    margin-right: 20;
+}
+
+header{  background-color: rgb(131, 169, 241);}
+
+body table, th, td {
+    border: 1px solid;
+    width: 90%;
+    border-collapse: collapse;
+
+}
+
+footer{ background-color: rgb(131, 169, 214);}

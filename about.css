@@ -1,0 +1,57 @@
+header img 
+{
+   margin-right: 20;
+    width: 100px;
+    height: 100px;
+}
+
+
+header nav
+{ 
+    float: right;
+    margin-right: 20;
+}
+
+header{  background-color: rgb(131, 169, 241);}
+
+body div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid rgb(131, 169, 241);
+    padding: 50px;
+    margin: 20px;
+}
+
+body form{
+   
+    border:  1px solid;
+}
+
+
+
+
+body img  
+{
+    margin: 50px;
+    width: 50;
+    height: 50;
+
+}
+
+
+
+body form
+{
+   
+    position: absolute;
+   margin-bottom: 20;
+    
+   
+
+}
+
+.message {
+    width: 90%;
+}
+
+footer{ background-color: rgb(131, 169, 214);}
