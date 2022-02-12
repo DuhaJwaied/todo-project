@@ -15,10 +15,7 @@ if(userAge <= 0)
 
 welcomeMessage = confirm("Skip message?");
 
-if(welcomeMessage == true)
-{
 
-}
 
 if(welcomeMessage == false)
 {
