@@ -1,61 +1,72 @@
-var username = prompt ("What's your name?");
+`use strict`;
+
+var username = prompt("What's your name?");
 var gender = prompt("What's your gender? male /female only");
 
-if(gender =="male")
-{confirmedGender = "Mr."}
-else 
-{ confirmedGender=" "}
+if (gender == "male") { confirmedGender = "Mr." }
+else { confirmedGender = " " }
 
 
-if(gender == "female")
-{confirmedGender = "Mrs."}
-else 
-{ confirmedGender=" "}
+if (gender == "female") { confirmedGender = "Mrs." }
+else { confirmedGender = " " }
 
 
 var userAge = prompt("What's your age?")
-if(userAge <= 0)
-{
+if (userAge <= 0) {
     alert("Age can't be less than or equal to zero!")
 }
 
 welcomeMessage = confirm("Skip message?");
 
-if(welcomeMessage == false)
-{
-    alert("Hello "+confirmedGender +" "+username);
+if (welcomeMessage == false) {
+    alert("Hello " + confirmedGender + " " + username);
 }
 
 
 
 
+////////////////////////////////////////////////////////////////////
+//task 6
+var Arr = [];
+alert("Quick Questionaie");
+var Qone = prompt("Do you like our page style yes/no?");
+
+checkAnswer(Qone);
+var Qtwo = prompt("will you use the page again yes/no??");
+
+checkAnswer(Qtwo);
+var Qthree = prompt("is it better than befor??");
+
+checkAnswer(Qthree);
 
 
 
-// var username = prompt ("type your name ")
-// var gender = prompt ("type your gender")
-// if( gender !=="male" && gender !=="female")
+function checkAnswer(answer) {
 
-//    { gender = prompt ("type your gender again only male/female")
-// }
+answer=answer.toLowerCase();
 
-// var age = prompt ("type your age")
-// if( age <=0 )
-// {alert("the age is incorrect please do it again")
+    if (answer == "yes"){ 
+        answer = "yes" 
+        Arr.push(answer);}
+    else if (answer == "no") {
+         answer = "No"
+         Arr.push(answer); }
+    else { 
+        answer = "invaild" ;
+        Arr.push(answer);
+    }
+console.log(answer);
+ 
 
-//     var age = prompt ("type your age again")
-// }
+  
+   // return Arr;
+}
+function print ( Arr)
+{for ( let i=0; i< Arr.length ;i++ )
+{console.log(Arr[i])}
+}
+console.log(Arr);
 
-// var choice = confirm("Do you want ot see welcoming message??")
+print(Arr)
 
-// if (choice == true)
-// {
-// if (  gender == "male" )
-// {alert("wellcome Mr" + username ) }
-// elseif ( gender == "female" )
-//     {alert("wellcome" + username)}
-// elseif 
-// {alert ("wellcome " + username)}
-// }
 
-    
